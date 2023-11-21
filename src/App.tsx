@@ -8,6 +8,8 @@ const App = () => {
   const [list, setList] = useState<Item[]>([
     { id: 1, name:'Ir até a padaria', done: false},
     { id: 2, name:'Compar pão', done: true},
+    { id: 3, name:'Pagar a Escola', done: true},
+    { id: 4, name:'Consulta Médica 30/11', done: false},
   ]);
   
 
